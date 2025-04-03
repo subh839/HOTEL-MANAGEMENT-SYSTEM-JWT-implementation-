@@ -1,17 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="JWTAuth - Copy - Copy.csproj" />
-    <None Include="JWTAuth - Copy - Copy.csproj.user" />
-    <None Include="JWTAUTHENTICATE.csproj" />
-    <None Include="JWTAUTHENTICATE.csproj.user" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
